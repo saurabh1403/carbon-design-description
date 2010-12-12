@@ -1,0 +1,38 @@
+<Explanation>
+	<chapterName>Chemical Reaction</chapterName>
+	<chapterNumber>12</chapterNumber>
+	<Topics>
+		<Topic>
+			<name>Chemical Changes</name>
+			<subTopic>
+				<name>Chemical Changes in real world</name>
+				<type>video</type>
+				<videoEncryptionCode>456</videoEncryptionCode>
+				<!--This is the relative path with respect to the package data directory-->
+				<relativeSrcfile>\sem1\14gv.app</relativeSrcfile>
+				<duration>0:12</duration>
+			</subtopic>
+			<subTopic>
+				<name>Chemical Changes in elements</name>
+				<videoEncryptionCode>426</videoEncryptionCode>
+				<relativeSrcfile>\sem1\3fgv.app</relativeSrcfile>
+				<duration>0:12</duration>
+			</subtopic>
+		</Topic>
+		<Topic>
+			<name>Physical Changes</name>
+			<subTopic>
+				<name>Physical Changes in real world</name>
+				<videoEncryptionCode>356</videoEncryptionCode>
+				<relativeSrcfile>\sem1\14g2.app</relativeSrcfile>
+				<duration>0:12</duration>
+			</subtopic>
+			<subTopic>
+				<name>Physical Changes in elements</name>
+				<videoEncryptionCode>126</videoEncryptionCode>
+				<relativeSrcfile>\sem1\a3gv.app</relativeSrcfile>
+				<duration>0:12</duration>
+			</subtopic>
+		</Topic>
+	<Topics>
+</Explanation>
