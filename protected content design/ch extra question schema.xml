@@ -1,0 +1,17 @@
+<extraQuestions>
+	<chapterName>Chemical Reaction</chapterName>
+	<chapterNumber>12</chapterNumber>
+	<topics>
+		<topic>
+		<!--the name of exercise would be different for maths and for science-->
+		<name>Exercise - 12.5</name>
+			<question>
+				<name>Question no. - 1</name>
+				<videoEncryptionCode>257</videoEncryptionCode>
+				<!--This is the relative path with respect to the package data directory-->
+				<relativeSrcfile>\sem1\ks42.app</relativeSrcfile>
+				<duration>7:23</duration>
+			</question>
+		</topic>
+	</topics>
+</ncertQuestions>

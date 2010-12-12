@@ -1,0 +1,17 @@
+<ncertQuestions>
+	<chapterName>Chemical Reaction</chapterName>
+	<chapterNumber>12</chapterNumber>
+	<exercises>
+		<exercise>
+		<!--the name of exercise would be different for maths and for science-->
+		<name>Exercise - 12.5</name>
+			<question>
+				<name>Problem no. - 1</name>
+				<videoEncryptionCode>256</videoEncryptionCode>
+				<!--This is the relative path with respect to the package data directory-->
+				<relativeSrcfile>\sem1\jh56.app</relativeSrcfile>
+				<duration>2:12</duration>
+			</question>
+		</exercise>
+	</exercises>
+</ncertQuestions>

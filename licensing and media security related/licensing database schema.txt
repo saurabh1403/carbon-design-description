@@ -1,0 +1,19 @@
+
+create table l_Data (domain TEXT NOT NULL, package_id TEXT NOT NULL, key TEXT NOT NULL, value TEXT NOT NULL, PRIMARY KEY (package_id, key));
+
+
+database name is apd (aaplication provisioning database)
+
+
+key can be:
+
+
+--installDate
+--EulaAccepted
+--licenseName
+--ExpiryDate (it will be stored at two locations and it will check against any tempering)
+--
+
+
+
+
