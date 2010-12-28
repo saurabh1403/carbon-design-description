@@ -1,0 +1,27 @@
+
+
+1. log4cxx is to be used as the logging library. it is released under apache license. 
+
+2. log.h and log.cpp are the common files which is a wrapper above log4cxx library and provides the following functionalities:
+	> initialize with a defined level
+	> check for the existence of carbon.trace file in the user area temp folder. if it is present, the log level is set at trace
+	> sets the format of the logging
+	> takes the log file name which is to be created. 
+	> takes the module name as the input parameter and initialize the logger object with that name.
+	> its a singleton class <-- need to think on this. why to make it a singleton class.
+
+
+	> it will check for the carbon.buffer file in the temp location to disable the buffered logging. 
+
+3. every function will use the singleton object to get the logger object. Then it always prepends the name of the function 
+e.g. 	[getTempFolderLocation] in front of the logging string so that the logging origin can be determined easily.
+
+
+
+
+
+
+
+
+
+
