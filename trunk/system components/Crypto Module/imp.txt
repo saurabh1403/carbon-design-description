@@ -1,0 +1,15 @@
+
+
+1. It should be made as a static lib so that no signing and verification is needed before loading it. Or infact, use the source code directly instead of any library so that there is no need of the inclusion of whole module .
+
+2. the same library would be used at server as well as on client machine. 
+
+
+
+
+
+
+For symmetric encryption: 
+
+1. In AES: ECB is not to be used. very less security. 
+

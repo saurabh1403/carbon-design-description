@@ -1,0 +1,11 @@
+
+EDMM : encrypted database management module
+
+
+>> whenevr this is initialized, it will check for the special key stored in the database with some basic encryption. once this key is found, it will use the simple AES encryption to fetch the data and write back data in the encrypted format. 
+
+
+>> if the key is not found, it will write and read data in the simple format. This will also be based on a flag named "ForcedEncryption". In case of ForcedEncryption, it is mandatory for the db to have the key tag otherwise it will return error. 
+
+
+

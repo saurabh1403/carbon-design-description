@@ -1,17 +1,37 @@
 pending items to start thinking upon:
 
 
-1. file and dll signing.
+1. files and dll signing.
+
 2. symmteric key encryption to store license and other secure informations. 
+
 3. license expiry design. 
+
 4. communication with the server automatically whenevr the internet connection is found and detect the tempering of the package.open SSL can be used here.
 
 5. home window in flex can be a dangerous thing. swf can easily be decompiled and hence cracked. make it in c++ using QT. 
+
 6. avi to flv conversion. 
 
 7. communication between flex app and some native exe (like BE). openSSL can be used here for secure communication.
 
 8. keys management. where and how will be the secure keys be stored
+
+9 facility to send the emails to the buyers whenever any serial number is activated on a machine. 
+
+10. use of locks and mutexes to avoid multiple instances of the installer as well as the IDApps
+
+
+11. some ways to write in an ecnrypted db about the cache file locations. at some point, we would like to clear all the cached files so that no content is left on the user's machine. 
+
+
+
+
+Less important:
+
+1. clean up script
+
+2. logs collect script
 
 
 

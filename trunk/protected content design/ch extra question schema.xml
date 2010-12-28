@@ -3,8 +3,7 @@
 	<chapterNumber>12</chapterNumber>
 	<topics>
 		<topic>
-		<!--the name of exercise would be different for maths and for science-->
-		<name>Exercise - 12.5</name>
+			<name>Physical Change</name>
 			<question>
 				<name>Question no. - 1</name>
 				<videoEncryptionCode>257</videoEncryptionCode>
