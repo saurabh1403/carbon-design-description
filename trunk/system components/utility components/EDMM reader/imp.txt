@@ -1,0 +1,1 @@
+application which will accept the query and return the data in an unencrypted format. 
