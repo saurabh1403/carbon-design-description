@@ -1,0 +1,5 @@
+
+
+>> it will take different pkg_dbs and combine into a single media and construct the mediaData.db 
+
+>> it also puts the infomration in an encrypted format.

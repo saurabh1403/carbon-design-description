@@ -1,0 +1,15 @@
+
+There are two parts in it.
+
+First part:
+
+It takes one chapter at the statging location and makes the pkg db for this chapter. No encryption is done at this level. 
+
+However, while entering the one chapter information it will add the key which is used to encrypt all the videos and files for that chapter.
+
+
+Second part:
+
+This will take different chapters pkg_db and combines them to form a final pkg_db. At this step, it encrypts all the data and text in the db and then insert the key according to some specified algorith in the pcd_meta table of the db. 
+
+

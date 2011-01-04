@@ -1,6 +1,6 @@
 create table chapters (chapter_id TEXT NOT NULL, chapter_number INT NOT NULL, chapter_name TEXT NOT NULL, PRIMARY KEY(chapter_id)); 
 create table chapterContent (chapter_id TEXT NOT NULL REFERENCES chapters(chapter_id), Key TEXT NOT NULL, value TEXT, PRIMARY KEY(chapter_id, key));  
-create table pcd_meta ( key TEXT NOT NULL, value TEXT NOT NULL);
+create table db_meta ( key TEXT NOT NULL, value TEXT NOT NULL);
 
 
 In table chapterContent, possible values of key are
@@ -17,6 +17,8 @@ In table chapterContent, value will contain the corresponding xml files in encry
 In table pcd_meta, example value of key and value would be:
 >> schema_version
 >> schema_compatibility_version
+
+>> in db_meta table, the key for the encryption will be stored along with the encryption type algo. it will be an encoded string which is consumed by EDMM only. There will be a specific protocol for this thing. 
 
 
 Donot create triggers here as this db will be only marked as read only on the end user machine.
