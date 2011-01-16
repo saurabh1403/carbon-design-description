@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Here is the template for the message object string which is to be sent from UI to native. 
+
+<message>
+
+<messageType>sync/async</messageType>
+<sessionJob>true/false</sessionJob>
+<sessionId></sessionId>
+<targetObject>getAllAvailableClasses</targetObject>
+<argumentXml>...</argumentXml>
+
+
+</message>
