@@ -1,0 +1,1 @@
+compile all  projects with multi-threaded (/debug) option in c++ code generation property in visual studio. 
