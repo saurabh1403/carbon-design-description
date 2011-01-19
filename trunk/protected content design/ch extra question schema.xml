@@ -4,13 +4,16 @@
 	<topics>
 		<topic>
 			<name>Physical Change</name>
-			<question>
-				<name>Question no. - 1</name>
-				<videoEncryptionCode>257</videoEncryptionCode>
-				<!--This is the relative path with respect to the package data directory-->
-				<relativeSrcfile>\sem1\ks42.app</relativeSrcfile>
-				<duration>7:23</duration>
-			</question>
+			<questions>
+				<question>
+					<name>Question no. - 1</name>
+					<videoEncryptionCode>257</videoEncryptionCode>
+					<!--This is the relative path with respect to the package data directory-->
+					<relativeSrcfile>\sem1\ks42.app</relativeSrcfile>
+					<duration>7:23</duration>
+					<keywords>chemical change;chemical reaction</keywords>
+				</question>
+			</questions>
 		</topic>
 	</topics>
 </ncertQuestions>

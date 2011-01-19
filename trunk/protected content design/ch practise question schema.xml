@@ -5,16 +5,18 @@
 		<topic>
 		<!--the name of exercise would be different for maths and for science-->
 			<name>Chemical change</name>
-			<type>pdf</type>
+			<type>html</type>
 			<!--This is the relative path with respect to the package data directory-->
 			<relativeSrcfile>\sem1\ktt4.pap</relativeSrcfile>
+			<keywords>chemical change;chemical reaction</keywords>
 		</topic>
 		<topic>
 		<!--the name of exercise would be different for maths and for science-->
 			<name>Physical change</name>
-			<type>pdf</type>
+			<type>html</type>
 			<!--This is the relative path with respect to the package data directory-->
 			<relativeSrcfile>\sem1\ktt4.pap</relativeSrcfile>
+			<keywords>chemical change;chemical reaction</keywords>
 		</topic>
 	</topics>
 </practiceQuestions>
