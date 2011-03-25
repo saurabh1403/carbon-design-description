@@ -18,3 +18,15 @@ create TABLE pcd_meta ( key TEXT NOT NULL, value TEXT NOT NULL);
 >> PACKAGESIZE
 >> PACKAGEINFO   --- this will be an xml which will contain any new meta data about the package which is not to be changed according to client machine.
 
+
+
+>Install State can be
+
+
+>> 0 -- uninstalled		(it should never be present in ideal case)
+>> 1 -- not activated		(not supported as of now)
+>> 2 -- installed		(should be in most of the cases)
+>> 3 -- expired			(not used now)
+
+
+
