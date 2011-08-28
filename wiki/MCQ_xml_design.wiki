@@ -9,7 +9,7 @@ The MCQ APP totally runs using the data from the xml. It supports both text rend
 Here are the xml nodes which are used for describing a question to render. 
 
 <h3>Ex 1:</h3> 
-
+<![CDATA[
 <question>
 			<htmlContent>ques1.html</htmlContent>
 			<type>radio</type>
@@ -23,9 +23,10 @@ Here are the xml nodes which are used for describing a question to render.
 			<imagePath>22.jpg</imagePath>
 			<htmlExplanation>expl1.html</htmlExplanation>
 		</question>
+]]>
 
 <h3>Ex 2: </h3>
-
+<![CDATA[
 <question>
 			<htmlContent>ques2.html</htmlContent>
 			<statement>Q2. Which of the following metals can be cut with a knife?</statement>
@@ -39,3 +40,5 @@ Here are the xml nodes which are used for describing a question to render.
 			</choices>
 			<explanation>Sodium is a soft metal. It can be cut with a knife.</explanation>
 		</question>
+
+]]>
